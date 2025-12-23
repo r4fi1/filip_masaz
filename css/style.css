@@ -122,3 +122,32 @@ footer {
   text-align: center;
   padding: 25px;
 }
+
+.prep-list {
+  list-style: inside disc; /* klasyczne kropki wewnątrz boxa */
+  padding-left: 0;         /* usuwa domyślne wcięcie */
+  margin-left: 0;          /* dodatkowe wyrównanie do lewej */
+  line-height: 1.8;
+  color: var(--dark);
+  text-align: left;        /* wymusza wyrównanie do lewej */
+}
+
+.prep-list li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+/* Marker w kolorze brandu */
+.prep-list li::marker {
+  color: var(--green);
+  font-weight: bold;
+}
+
+.card.center p {
+  text-align: justify;
+}
+
+#modal p {
+  text-align: justify;
+  line-height: 1.6; /* dla lepszej czytelności */
+}
